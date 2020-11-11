@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/PPvIS4.dir/main.cpp.obj"
-  "PPvIS4.exe"
-  "PPvIS4.exe.manifest"
-  "PPvIS4.lib"
+  "CMakeFiles/PPvIS4.dir/main.cpp.o"
+  "PPvIS4"
   "PPvIS4.pdb"
 )
 
