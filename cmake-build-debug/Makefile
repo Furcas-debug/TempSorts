@@ -124,6 +124,33 @@ PPvIS4\fast:
 	$(MAKE) -f CMakeFiles\PPvIS4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PPvIS4.dir\build
 .PHONY : PPvIS4\fast
 
+Sortts.obj: Sortts.cpp.obj
+
+.PHONY : Sortts.obj
+
+# target to build an object file
+Sortts.cpp.obj:
+	$(MAKE) -f CMakeFiles\PPvIS4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PPvIS4.dir\Sortts.cpp.obj
+.PHONY : Sortts.cpp.obj
+
+Sortts.i: Sortts.cpp.i
+
+.PHONY : Sortts.i
+
+# target to preprocess a source file
+Sortts.cpp.i:
+	$(MAKE) -f CMakeFiles\PPvIS4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PPvIS4.dir\Sortts.cpp.i
+.PHONY : Sortts.cpp.i
+
+Sortts.s: Sortts.cpp.s
+
+.PHONY : Sortts.s
+
+# target to generate assembly for a file
+Sortts.cpp.s:
+	$(MAKE) -f CMakeFiles\PPvIS4.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\PPvIS4.dir\Sortts.cpp.s
+.PHONY : Sortts.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -160,6 +187,9 @@ help:
 	@echo ... PPvIS4
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Sortts.obj
+	@echo ... Sortts.i
+	@echo ... Sortts.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -3,4 +3,4 @@ project(PPvIS4)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(PPvIS4 main.cpp)
+add_executable(PPvIS4 main.cpp Sortts.cpp Sortts.h)

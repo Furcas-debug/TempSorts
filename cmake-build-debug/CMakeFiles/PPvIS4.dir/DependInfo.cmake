@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/PPvIS4/Sortts.cpp" "E:/PPvIS4/cmake-build-debug/CMakeFiles/PPvIS4.dir/Sortts.cpp.obj"
   "E:/PPvIS4/main.cpp" "E:/PPvIS4/cmake-build-debug/CMakeFiles/PPvIS4.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

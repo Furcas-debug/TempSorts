@@ -77,17 +77,38 @@ CMakeFiles\PPvIS4.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\PPvIS4.dir\main.cpp.s /c E:\PPvIS4\main.cpp
 <<
 
+CMakeFiles\PPvIS4.dir\Sortts.cpp.obj: CMakeFiles\PPvIS4.dir\flags.make
+CMakeFiles\PPvIS4.dir\Sortts.cpp.obj: ..\Sortts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\PPvIS4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PPvIS4.dir/Sortts.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\PPvIS4.dir\Sortts.cpp.obj /FdCMakeFiles\PPvIS4.dir\ /FS -c E:\PPvIS4\Sortts.cpp
+<<
+
+CMakeFiles\PPvIS4.dir\Sortts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PPvIS4.dir/Sortts.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\PPvIS4.dir\Sortts.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\PPvIS4\Sortts.cpp
+<<
+
+CMakeFiles\PPvIS4.dir\Sortts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PPvIS4.dir/Sortts.cpp.s"
+	C:\PROGRA~2\MICROS~1\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\PPvIS4.dir\Sortts.cpp.s /c E:\PPvIS4\Sortts.cpp
+<<
+
 # Object files for target PPvIS4
 PPvIS4_OBJECTS = \
-"CMakeFiles\PPvIS4.dir\main.cpp.obj"
+"CMakeFiles\PPvIS4.dir\main.cpp.obj" \
+"CMakeFiles\PPvIS4.dir\Sortts.cpp.obj"
 
 # External object files for target PPvIS4
 PPvIS4_EXTERNAL_OBJECTS =
 
 PPvIS4.exe: CMakeFiles\PPvIS4.dir\main.cpp.obj
+PPvIS4.exe: CMakeFiles\PPvIS4.dir\Sortts.cpp.obj
 PPvIS4.exe: CMakeFiles\PPvIS4.dir\build.make
 PPvIS4.exe: CMakeFiles\PPvIS4.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\PPvIS4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PPvIS4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\PPvIS4\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable PPvIS4.exe"
 	"E:\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\PPvIS4.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\PPvIS4.dir\objects1.rsp @<<
  /out:PPvIS4.exe /implib:PPvIS4.lib /pdb:E:\PPvIS4\cmake-build-debug\PPvIS4.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

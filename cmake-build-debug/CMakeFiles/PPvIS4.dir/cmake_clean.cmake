@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PPvIS4.dir/Sortts.cpp.obj"
   "CMakeFiles/PPvIS4.dir/main.cpp.obj"
   "PPvIS4.exe"
   "PPvIS4.exe.manifest"
