@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 "E:\CLion 2020.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" E:\PPvIS4
+=======
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/furcas/TempSorts
+>>>>>>> 2643c6e9e9b7ef93df36ee86c32067f2437c2ecf
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/PPvIS4/cmake-build-debug
+-- Build files have been written to: /Users/furcas/TempSorts/cmake-build-debug
